@@ -36,6 +36,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF2BE69D27D5F9770066B17D /* DictonariesExample.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DictonariesExample.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FF2BE69E27D61BF70066B17D /* OptionalsExample.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = OptionalsExample.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FF2BE69F27D627DA0066B17D /* Chapter-2Exercise.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter-2Exercise.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FF2BE6A027D758000066B17D /* OptionalExtraExamples.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = OptionalExtraExamples.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FF92FC7527D20DF9002873A5 /* VariableExample.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = VariableExample.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FF92FC7627D20FC1002873A5 /* OperatorExample.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = OperatorExample.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FF92FC7727D21307002873A5 /* WorkingWithTextExample.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = WorkingWithTextExample.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FF92FC7827D21AD8002873A5 /* ControlFlowExample.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ControlFlowExample.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FF92FC7927D22437002873A5 /* ArrayExample.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ArrayExample.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FFAEF97427D20B3E003C623A /* IOSOverview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSOverview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFAEF97727D20B3E003C623A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFAEF97927D20B3E003C623A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF92FC7427D20D86002873A5 /* IOSBasic */ = {
+			isa = PBXGroup;
+			children = (
+				FF92FC7527D20DF9002873A5 /* VariableExample.playground */,
+				FF92FC7627D20FC1002873A5 /* OperatorExample.playground */,
+				FF92FC7727D21307002873A5 /* WorkingWithTextExample.playground */,
+				FF92FC7827D21AD8002873A5 /* ControlFlowExample.playground */,
+				FF92FC7927D22437002873A5 /* ArrayExample.playground */,
+				FF2BE69D27D5F9770066B17D /* DictonariesExample.playground */,
+				FF2BE69E27D61BF70066B17D /* OptionalsExample.playground */,
+				FF2BE69F27D627DA0066B17D /* Chapter-2Exercise.playground */,
+				FF2BE6A027D758000066B17D /* OptionalExtraExamples.playground */,
+			);
+			path = IOSBasic;
+			sourceTree = "<group>";
+		};
 		FFAEF96B27D20B3E003C623A = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +124,7 @@
 		FFAEF97627D20B3E003C623A /* IOSOverview */ = {
 			isa = PBXGroup;
 			children = (
+				FF92FC7427D20D86002873A5 /* IOSBasic */,
 				FFAEF97727D20B3E003C623A /* AppDelegate.swift */,
 				FFAEF97927D20B3E003C623A /* SceneDelegate.swift */,
 				FFAEF97B27D20B3E003C623A /* ViewController.swift */,
