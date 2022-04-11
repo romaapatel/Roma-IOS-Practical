@@ -64,7 +64,9 @@
 		FFAEF98E27D20B3F003C623A /* IOSOverviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSOverviewTests.swift; sourceTree = "<group>"; };
 		FFAEF99427D20B3F003C623A /* IOSOverviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSOverviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFAEF99827D20B3F003C623A /* IOSOverviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSOverviewUITests.swift; sourceTree = "<group>"; };
+		FFBDF2AE280438CE004B1529 /* RevisionExamples.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RevisionExamples.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FFD92A5627DB345E00F984FC /* Properties,Subscripts, Methods & Inheritance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Properties,Subscripts, Methods & Inheritance.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FFDA71E1280D8D5700C7AA10 /* Test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Test.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		FFAEF97627D20B3E003C623A /* IOSOverview */ = {
 			isa = PBXGroup;
 			children = (
+				FFBDF2AD28043887004B1529 /* AdvancedSwiftRevision */,
 				FF92FC7427D20D86002873A5 /* IOSBasic */,
 				FF7490AF27D8721C008345EA /* AdvancedSwift_IOS(B) */,
 				FFAEF97927D20B3E003C623A /* SceneDelegate.swift */,
@@ -173,6 +176,15 @@
 				FFAEF99827D20B3F003C623A /* IOSOverviewUITests.swift */,
 			);
 			path = IOSOverviewUITests;
+			sourceTree = "<group>";
+		};
+		FFBDF2AD28043887004B1529 /* AdvancedSwiftRevision */ = {
+			isa = PBXGroup;
+			children = (
+				FFBDF2AE280438CE004B1529 /* RevisionExamples.playground */,
+				FFDA71E1280D8D5700C7AA10 /* Test.playground */,
+			);
+			path = AdvancedSwiftRevision;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
