@@ -16,6 +16,11 @@
 		FFAEF98427D20B3F003C623A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFAEF98227D20B3F003C623A /* LaunchScreen.storyboard */; };
 		FFAEF98F27D20B3F003C623A /* IOSOverviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAEF98E27D20B3F003C623A /* IOSOverviewTests.swift */; };
 		FFAEF99927D20B3F003C623A /* IOSOverviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAEF99827D20B3F003C623A /* IOSOverviewUITests.swift */; };
+		FFBDF2B92806C20F004B1529 /* AdvancedAutoLayout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFBDF2B82806C20F004B1529 /* AdvancedAutoLayout.storyboard */; };
+		FFF3498728166F9A00FAAE76 /* AdvancedAutoLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF3498628166F9A00FAAE76 /* AdvancedAutoLayoutViewController.swift */; };
+		FFF349892816709C00FAAE76 /* AutoLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF349882816709C00FAAE76 /* AutoLayoutViewController.swift */; };
+		FFF3498B281670E400FAAE76 /* SizeClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF3498A281670E400FAAE76 /* SizeClassViewController.swift */; };
+		FFF3498D2816725800FAAE76 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF3498C2816725800FAAE76 /* ExerciseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +69,12 @@
 		FFAEF98E27D20B3F003C623A /* IOSOverviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSOverviewTests.swift; sourceTree = "<group>"; };
 		FFAEF99427D20B3F003C623A /* IOSOverviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSOverviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFAEF99827D20B3F003C623A /* IOSOverviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSOverviewUITests.swift; sourceTree = "<group>"; };
+		FFBDF2B82806C20F004B1529 /* AdvancedAutoLayout.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AdvancedAutoLayout.storyboard; sourceTree = "<group>"; };
 		FFD92A5627DB345E00F984FC /* Properties,Subscripts, Methods & Inheritance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Properties,Subscripts, Methods & Inheritance.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FFF3498628166F9A00FAAE76 /* AdvancedAutoLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedAutoLayoutViewController.swift; sourceTree = "<group>"; };
+		FFF349882816709C00FAAE76 /* AutoLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutViewController.swift; sourceTree = "<group>"; };
+		FFF3498A281670E400FAAE76 /* SizeClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeClassViewController.swift; sourceTree = "<group>"; };
+		FFF3498C2816725800FAAE76 /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +155,7 @@
 		FFAEF97627D20B3E003C623A /* IOSOverview */ = {
 			isa = PBXGroup;
 			children = (
+				FFBDF2B72806C07C004B1529 /* AdvancedAutoLayout */,
 				FF92FC7427D20D86002873A5 /* IOSBasic */,
 				FF7490AF27D8721C008345EA /* AdvancedSwift_IOS(B) */,
 				FFAEF97927D20B3E003C623A /* SceneDelegate.swift */,
@@ -173,6 +184,18 @@
 				FFAEF99827D20B3F003C623A /* IOSOverviewUITests.swift */,
 			);
 			path = IOSOverviewUITests;
+			sourceTree = "<group>";
+		};
+		FFBDF2B72806C07C004B1529 /* AdvancedAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				FFBDF2B82806C20F004B1529 /* AdvancedAutoLayout.storyboard */,
+				FFF3498628166F9A00FAAE76 /* AdvancedAutoLayoutViewController.swift */,
+				FFF349882816709C00FAAE76 /* AutoLayoutViewController.swift */,
+				FFF3498A281670E400FAAE76 /* SizeClassViewController.swift */,
+				FFF3498C2816725800FAAE76 /* ExerciseViewController.swift */,
+			);
+			path = AdvancedAutoLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFAEF98427D20B3F003C623A /* LaunchScreen.storyboard in Resources */,
+				FFBDF2B92806C20F004B1529 /* AdvancedAutoLayout.storyboard in Resources */,
 				FFAEF98127D20B3F003C623A /* Assets.xcassets in Resources */,
 				FFAEF97F27D20B3E003C623A /* Main.storyboard in Resources */,
 			);
@@ -308,8 +332,12 @@
 			files = (
 				FF47C57127E07F310098A6E9 /* AppDelegate.swift in Sources */,
 				FFAEF97C27D20B3E003C623A /* ViewController.swift in Sources */,
+				FFF3498B281670E400FAAE76 /* SizeClassViewController.swift in Sources */,
+				FFF3498728166F9A00FAAE76 /* AdvancedAutoLayoutViewController.swift in Sources */,
 				FF47C57727E0A0EC0098A6E9 /* SecondViewController.swift in Sources */,
 				FFAEF97A27D20B3E003C623A /* SceneDelegate.swift in Sources */,
+				FFF3498D2816725800FAAE76 /* ExerciseViewController.swift in Sources */,
+				FFF349892816709C00FAAE76 /* AutoLayoutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
