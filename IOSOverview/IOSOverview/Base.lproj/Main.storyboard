@@ -69,7 +69,7 @@
         <!--Second View Controller-->
         <scene sceneID="gwf-aH-Ppt">
             <objects>
-                <viewController id="6sJ-4p-Jxg" customClass="SecondViewController" customModule="SendingDataDelegate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="6sJ-4p-Jxg" customClass="SecondViewController" customModule="IOSOverview" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7K9-Pe-F7b">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
