@@ -117,7 +117,6 @@
 				488EB0ED6102416FCDEF3760 /* Pods-IOSOverviewTests.debug.xcconfig */,
 				F93D8D949ABF9FAAB6A1E36A /* Pods-IOSOverviewTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -224,6 +223,7 @@
 			buildConfigurationList = FFAEF99E27D20B3F003C623A /* Build configuration list for PBXNativeTarget "IOSOverview" */;
 			buildPhases = (
 				3B4A7855A448E78DE6CAD07D /* [CP] Check Pods Manifest.lock */,
+				FF4870C328292B0A00EDFB5B /* ShellScript */,
 				FFAEF97027D20B3E003C623A /* Sources */,
 				FFAEF97127D20B3E003C623A /* Frameworks */,
 				FFAEF97227D20B3E003C623A /* Resources */,
@@ -447,6 +447,23 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IOSOverview-IOSOverviewUITests/Pods-IOSOverview-IOSOverviewUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		FF4870C328292B0A00EDFB5B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\U0010\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

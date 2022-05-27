@@ -17,4 +17,5 @@ target 'IOSOverview' do
   end
 
 pod 'Alamofire'
+pod 'R.swift'
 end
