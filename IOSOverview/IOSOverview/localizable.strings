@@ -1,0 +1,16 @@
+/* 
+  localizable.strings
+  IOSOverview
+
+  Created by Roma Patel on 02/06/22.
+  
+*/
+"emptyemail"                    = "Please Enter Email";
+"emailFormat"                   = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}";
+"error"                         = "Error";
+"passwordLength"                = "Password must have atleast 6 character";
+"validEmail"                    = "Enter Valid Email Address";
+"apiSignIn"                     = "api/login";
+"apiSignUp"                     = "api/register";
+"baseURl"                       = "https://reqres.in/";
+"success"                       = "Success";
