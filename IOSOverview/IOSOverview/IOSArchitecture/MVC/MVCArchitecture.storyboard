@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Architecture View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="Y6W-OH-hqX" customClass="MVCArchitectureViewController" customModule="IOSOverview" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="x7Z-gE-PK1">
+                                <rect key="frame" x="15" y="83" width="384" height="46.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bFx-o2-UpH">
+                                        <rect key="frame" x="0.0" y="0.0" width="128" height="46.5"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Red">
+                                                    <attributes>
+                                                        <font key="NSFont" metaFont="system" size="31"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <action selector="onClickRedButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="wag-rh-QXY"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Upd-1f-TdH">
+                                        <rect key="frame" x="128" y="0.0" width="128" height="46.5"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Green">
+                                                    <attributes>
+                                                        <font key="NSFont" metaFont="system" size="31"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <action selector="onClickGreenButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Gnw-wC-Phz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7GQ-fE-Ebz">
+                                        <rect key="frame" x="256" y="0.0" width="128" height="46.5"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Yellow">
+                                                    <attributes>
+                                                        <font key="NSFont" metaFont="system" size="31"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <action selector="onClickYellowButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="QNd-Dt-mZN"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EkF-Su-akq">
+                                <rect key="frame" x="160" y="198" width="94" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HhG-jU-VOs" customClass="CircleLabel" customModule="IOSOverview" customModuleProvider="target">
+                                <rect key="frame" x="160" y="299" width="94" height="49"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="HhG-jU-VOs" firstAttribute="height" secondItem="EkF-Su-akq" secondAttribute="height" multiplier="1.02083" id="7FH-gR-5el"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="x7Z-gE-PK1" secondAttribute="trailing" constant="15" id="7Xf-Fe-4uZ"/>
+                            <constraint firstItem="EkF-Su-akq" firstAttribute="centerX" secondItem="x7Z-gE-PK1" secondAttribute="centerX" id="BPS-Fe-G37"/>
+                            <constraint firstItem="x7Z-gE-PK1" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="39" id="DEf-1C-BQZ"/>
+                            <constraint firstItem="x7Z-gE-PK1" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="15" id="Jrj-PB-v6w"/>
+                            <constraint firstItem="HhG-jU-VOs" firstAttribute="top" secondItem="EkF-Su-akq" secondAttribute="bottom" constant="53" id="Nqt-O5-2UZ"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="HhG-jU-VOs" secondAttribute="trailing" constant="160" id="OYb-5u-c58"/>
+                            <constraint firstItem="HhG-jU-VOs" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="160" id="Wvm-yO-7I3"/>
+                            <constraint firstItem="EkF-Su-akq" firstAttribute="top" secondItem="x7Z-gE-PK1" secondAttribute="bottom" constant="68.5" id="tJN-pQ-1ch"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="selectedLightColor" destination="HhG-jU-VOs" id="C9i-yr-9YJ"/>
+                        <outlet property="selectedLightDescriptionLabel" destination="EkF-Su-akq" id="6UY-k8-kIE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="67.633928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
